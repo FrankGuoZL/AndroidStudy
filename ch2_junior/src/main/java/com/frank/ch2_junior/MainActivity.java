@@ -65,6 +65,47 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d(TAG,"GravityActivity");
                 startActivity(new Intent(this, ScrollActivity.class));
                 break;
+            case R.id.btn_marquee:
+                Log.d(TAG,"MarqueeActivity");
+                startActivity(new Intent(this, MarqueeActivity.class));
+                break;
+            case R.id.btn_bbs:
+                Log.d(TAG,"BbsActivity");
+                startActivity(new Intent(this, BbsActivity.class));
+                break;
+            case R.id.btn_click:
+                Log.d(TAG,"ClickActivity");
+                startActivity(new Intent(this, ClickActivity.class));
+                break;
+            case R.id.btn_scale:
+                Log.d(TAG,"ScaleActivity");
+                startActivity(new Intent(this, ScaleActivity.class));
+                break;
+
+            case R.id.btn_capture:
+                Log.d(TAG,"CaptureActivity");
+                startActivity(new Intent(this, CaptureActivity.class));
+                break;
+            case R.id.btn_icon:
+                Log.d(TAG,"IconActivity");
+                startActivity(new Intent(this, IconActivity.class));
+                break;
+            case R.id.btn_state:
+                Log.d(TAG,"StateActivity");
+                startActivity(new Intent(this, StateActivity.class));
+                break;
+            case R.id.btn_shape:
+                Log.d(TAG,"ShapeActivity");
+                startActivity(new Intent(this, ShapeActivity.class));
+                break;
+            case R.id.btn_nine:
+                Log.d(TAG,"BbsActivity");
+                startActivity(new Intent(this, NineActivity.class));
+                break;
+            case R.id.btn_calculator:
+                Log.d(TAG,"BbsActivity");
+                startActivity(new Intent(this, CalculatorActivity.class));
+                break;
         }
     }
 }
